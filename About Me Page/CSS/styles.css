@@ -1,0 +1,21 @@
+.flex-container {
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+.flex-container > div {
+  background-color: white;
+  margin: 2px;
+  padding: 30px;
+  font-size: 15px;
+  justify-content: center;
+}
+img {
+  padding: 10%;
+  height: 200px;
+  width: 200px;
+}
+ul li {
+  list-style: none;
+}
